@@ -17,13 +17,15 @@ body {
 }
 
 .jumbotron {
-    min-height: 30rem;
+
+    min-height: 40rem;
     background-image: url("./assets/jumbotron.jpg");
     background-size: cover;
 }
 
-.btn-group {
-    padding: 1rem;
+button {
+    background-color: teal !important;
+    color: white;
 }
 
 #card-heading {
