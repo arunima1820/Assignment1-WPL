@@ -1,17 +1,26 @@
-#logo {
+.navbar .navbar-brand img {
+    height: 3rem;
+}
 
-    max-height: 1;
+.navbar {
+    background-color: rgb(231, 166, 120);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#search-bar {
+    align-content: center;
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(255, 235, 205);
 }
 
 .jumbotron {
-    min-height:30rem;
+    min-height: 30rem;
     background-image: url("./assets/jumbotron.jpg");
     background-size: cover;
-  }
+}
 
 .btn-group {
     padding: 1rem;
