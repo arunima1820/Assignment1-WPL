@@ -1,4 +1,18 @@
 #logo {
 
-    max-height: fit-content;
+    max-height: 1;
+}
+
+body {
+    background-color: grey;
+}
+
+.jumbotron {
+    min-height:30rem;
+    background-image: url("./assets/jumbotron.jpg");
+    background-size: cover;
+  }
+
+.btn-group {
+    padding: 1rem;
 }
