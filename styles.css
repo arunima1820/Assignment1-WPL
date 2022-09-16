@@ -1,4 +1,4 @@
-header {
-    max-height: 1rem;
-    background-color: black;
+#logo {
+
+    max-height: fit-content;
 }
