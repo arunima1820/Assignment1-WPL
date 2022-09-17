@@ -16,20 +16,11 @@ body {
     background-color: rgb(255, 235, 205);
 }
 
-.jumbotron {
-
-    min-height: 40rem;
-    background-image: url("./assets/jumbotron.jpg");
-    background-size: cover;
-}
-
-button {
+.teal-button {
     background-color: teal !important;
-    color: white;
+    color: white !important;
 }
 
-#card-heading {
-
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+.carousel-item {
+    max-height: 85vh;
 }
