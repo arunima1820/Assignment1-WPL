@@ -67,13 +67,10 @@
         
                 
                 <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                          </svg></button>   
+                        <input class="form-control me-2" type="search" placeholder="Destination" aria-label="Search">
+                           
                 </form>
-                
-                  
+            
                 <label for="dates">Duration of Stay</label>
                 <div class="input-group" id="dates">
                     <input type="date" class="form-control">
@@ -82,39 +79,12 @@
                     </div>
                     <input type="date" class="form-control">
                 </div>
-                
-                <div class="form-group">
-                      <label for="exampleFormControlSelect1">Number of Adults</label>
-                      <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                </div>
-
-                <div class="form-group">
-                        <label for="exampleFormControlSelect1">Number of Children</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                </div>
-
-                <div class="form-group">
-                        <label for="exampleFormControlSelect1">Number of Rooms</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                 </div>
+                <label for="dates">Number of Adults</label>
+                <input type="number" class="form-control" placeholder="Adults" id="points" name="points" step="1">
+                <label for="dates">Number of Children</label>
+                <input type="number" class="form-control" placeholder="Children" id="points" name="points" step="1">
+                <label for="dates">Number of Rooms</label>
+                <input type="number" class="form-control" placeholder="Rooms" id="points" name="points" step="1">
 
                  <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -129,6 +99,8 @@
                       I'm traveling for work
                     </label>
                 </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
                   
             </div>
             
