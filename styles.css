@@ -23,4 +23,10 @@ body {
 
 .carousel-item {
     max-height: 85vh;
+
+}
+
+.col {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
