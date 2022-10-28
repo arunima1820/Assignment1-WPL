@@ -1,0 +1,16 @@
+[
+  { "title": "", 
+    "description": "", 
+    "pricePerNight":"",
+    "nightlyFee":"",
+    "serviceFee": "",
+    "cleaningFee":"",
+    "bedrooms":"",
+    "amenities": "",
+    "bathrooms":"",
+    "beds": "",
+    "location": "",
+    "pets": "",
+    "propertyType": ""
+    }
+]
